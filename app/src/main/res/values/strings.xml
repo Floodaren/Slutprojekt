@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Slutprojekt</string>
+    <string name="action_settings">Kamera</string>
+    <string name="miniraknare_nolla">0</string>
+    <string name="miniraknare_komma">,</string>
+    <string name="miniraknare_likamed">=</string>
+    <string name="miniraknare_etta">1</string>
+    <string name="miniraknare_tvaa">2</string>
+    <string name="miniraknare_trea">3</string>
+    <string name="miniraknare_addition">+</string>
+    <string name="miniraknare_fyra">4</string>
+    <string name="miniraknare_femma">5</string>
+    <string name="miniraknare_sexa">6</string>
+    <string name="miniraknare_subtraktion">-</string>
+    <string name="miniraknare_sjua">7</string>
+    <string name="miniraknare_atta">8</string>
+    <string name="miniraknare_nia">9</string>
+    <string name="miniraknare_multiplikation">X</string>
+    <string name="miniraknare_clear">AC</string>
+    <string name="miniraknare_positivnegativ">+/-</string>
+    <string name="miniraknare_procent">%</string>
+    <string name="miniraknare_division">/</string>
+    <string name="nyttInlagg_Valjbildknapp">Välj Bild</string>
+    <string name="nyttInlagg_Tillbakaknapp">Tillbaka</string>
+    <string name="nyttInlagg_Nasta">Nästa</string>
+    <string name="nyttInlagg_Rubrik">Rubrik</string>
+    <string name="nyttInlagg_Undertext">Undertext</string>
+    <string name="nyttInlaggTillbakaknapp">Tillbaka</string>
+    <string name="nyttInlaggnastaknapp">Nästa</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

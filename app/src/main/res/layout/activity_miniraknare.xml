@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nicholasflod.slutprojekt.Miniraknare"
+    android:background="@drawable/bakgrundminiraknare">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/resultat"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:height="50dp"
+        android:textSize="45sp"
+        android:gravity="right|top"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/resultat"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="false"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:text="@string/miniraknare_clear"
+                android:id="@+id/miniraknare_clear"
+                android:layout_column="0"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:onClick="Clear"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/miniraknare_positivnegativ"
+                android:id="@+id/miniraknare_positivnegativ"
+                android:layout_column="1"
+                android:onClick="PlusMinus"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/miniraknare_procent"
+                android:id="@+id/miniraknare_procent"
+                android:layout_column="2"
+                android:onClick="Procent"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/miniraknare_division"
+                android:id="@+id/miniraknare_division"
+                android:layout_column="3"
+                android:onClick="Division"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:text="@string/miniraknare_sjua"
+                android:id="@+id/miniraknare_sjua"
+                android:layout_column="0"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:onClick="Sjuan"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/miniraknare_atta"
+                android:id="@+id/miniraknare_atta"
+                android:layout_column="1"
+                android:onClick="Attan"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/miniraknare_nia"
+                android:id="@+id/miniraknare_nia"
+                android:layout_column="2"
+                android:onClick="Nian"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/miniraknare_multiplikation"
+                android:id="@+id/miniraknare_multiplikation"
+                android:layout_column="3"
+                android:onClick="Xet"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:text="@string/miniraknare_fyra"
+                android:id="@+id/miniraknare_fyra"
+                android:layout_column="0"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:onClick="Fyran"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/miniraknare_femma"
+                android:id="@+id/miniraknare_femma"
+                android:layout_column="1"
+                android:onClick="Femman"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/miniraknare_sexa"
+                android:id="@+id/miniraknare_sexa"
+                android:layout_column="2"
+                android:onClick="Sexan"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/miniraknare_subtraktion"
+                android:id="@+id/miniraknare_subtraktion"
+                android:layout_column="3"
+                android:onClick="Minus"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:text="@string/miniraknare_etta"
+                android:id="@+id/miniraknare_etta"
+                android:layout_column="0"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:onClick="Ettan"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/miniraknare_tvaa"
+                android:id="@+id/miniraknare_tvaa"
+                android:layout_column="1"
+                android:onClick="Tvaan"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/miniraknare_trea"
+                android:id="@+id/miniraknare_trea"
+                android:layout_column="2"
+                android:onClick="Trean"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/miniraknare_addition"
+                android:id="@+id/miniraknare_addition"
+                android:layout_column="3"
+                android:onClick="Addition"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:text="@string/miniraknare_nolla"
+                android:id="@+id/miniraknare_nolla"
+                android:layout_column="0"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_span="2"
+                android:onClick="Nollan"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/miniraknare_komma"
+                android:id="@+id/miniraknare_komma"
+                android:layout_column="2"
+                android:onClick="Komman"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/miniraknare_likamed"
+                android:id="@+id/miniraknare_likamed"
+                android:layout_column="3"
+                android:onClick="Likamedan"
+                android:textSize="20dp"
+                android:background="#64ffffff" />
+
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

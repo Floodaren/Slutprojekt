@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.nicholasflod.slutprojekt.MainActivity">
+    <item
+        android:id="@+id/camera_button"
+        android:orderInCategory="2"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/miniraknare_knapp"
+        android:orderInCategory="3"
+        android:title="Miniräknare"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nytt_inlagg"
+        android:orderInCategory="1"
+        android:title="Nytt inlägg"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Radera_alla_inlagg"
+        android:orderInCategory="4"
+        android:title="Radera alla inlägg"
+        app:showAsAction="never" />
+</menu>
